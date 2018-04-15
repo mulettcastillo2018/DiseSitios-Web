@@ -91,7 +91,7 @@ body {
 body footer {
 
   background-color: #FFBF00;
-
+  height: 50px;
 }
 body footer ul{
 
@@ -108,6 +108,7 @@ font-size: 30px;
 }
 
 .aside{
+width: 300px;
 margin-right: 70%;
 position: absolute;
 left: 1040px;
