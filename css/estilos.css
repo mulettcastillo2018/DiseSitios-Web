@@ -141,3 +141,7 @@ margin: auto;
   display: block;
   margin: auto;
 }
+.dato-personal li{
+text-decoration: none;
+list-style: none;
+}
