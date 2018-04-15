@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="description"content="Explorando y Aprendiendo HTML">
     <title>Diseño de Sitios Web</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
   </head>
   <body>
 
@@ -11,35 +13,83 @@
 <div class="contenedor">
 
       <header role="banner">
-        <div class="titulo">
-          <h2>Diseño de sitios web</h2>
+        <div  class="Logo">
+            <img src="img/logo.jpg" alt="Logo empresa">
         </div>
-        <nav class="Navegación" role="navigation">
-            <ul>
-                <li><a href="#"></a>Inicio</li>
-                <li><a href="#"></a>HTML5</li>
-                <li><a href="#"></a>CSS</li>
-                <li><a href="#"></a>NOSOTROS</li>
-                <li><a href="#"></a>CONTACTO</li>
+
+        <nav class="nav" role="navigation">
+            <ul class="menu_nav">
+              <li><a href="#"></a>Inicio</li>
+                <li><a href="#"></a>Lecturas
+                    <ul class="sub_menu">
+                        <li><a href="#"></a>Sub menu</li>
+                        <li><a href="#"></a>Sub menu</li>
+                        <li><a href="#"></a>Sub menu</li>
+                        <li><a href="#"></a>Sub menu</li>
+                        <li><a href="#"></a>Sub menu</li>
+                    </ul>
+                </li>
+                <li><a href="#"></a>Multimedia
+                  <ul class="sub_menu">
+                      <li><a href="#"></a>Sub menu</li>
+                      <li><a href="#"></a>Sub menu</li>
+
+                  </ul>
+
+                </li>
+                <li><a href="#"></a>Actividades
+                  <ul class="sub_menu">
+                      <li><a href="#"></a>Sub menu</li>
+                      <li><a href="#"></a>Sub menu</li>
+                      <li><a href="#"></a>Sub menu</li>
+                  </ul>
+                </li>
+                <li><a href="#"></a>Autores</li>
             </ul>
         </nav>
       </header><!--Finaliza encabezado-->
 <main class="contenido-principal" role="main">
-    <section>
-      <h2>Introducción</h2>
-        <video controls width="300" preload="auto " autoplay loop>
-            <source src="video/video_intro.mp4" type="video/mp4">
-            <p>Tu navegador no soporta video</p>
-        </video>
+    <section class="contenido">
+      <h2></h2>
+        <fieldset>
+          <legend>Información General del OVI</legend>
+
+        </fieldset>
+        <fieldset>
+          <legend>Objetivos del OVI</legend>
+
+        </fieldset>
+        <fieldset>
+          <legend>Objetivos del Curso</legend>
+
+        </fieldset>
+        <fieldset>
+          <legend>Tematicas</legend>
+
+        </fieldset>
+
 
     </section>
 </main>
 
-<aside class="aside" role="complementary">
+<aside role="complementary">
 
 </aside>
 
-
 </div><!--Finaliza contenedor principal-->
+<footer>
+  <ul>
+    <li>Nosotros</li>
+    <li>Contacto</li>
+    <li>Trabajo con Nosotros</li>
+    <li>Garantias y Devoluciones</li>
+    <li>Preguntas frecuentes</li>
+    <li>Terminos y Condiciones</li>
+  </ul>
+
+
+
+</footer>
+
   </body>
 </html>
