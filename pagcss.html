@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description"content="Explorando y Aprendiendo HTML">
+    <title>Diseño de Sitios Web</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+
+  </head>
+  <body>
+
+
+<div class="contenedor">
+
+      <header role="banner">
+        <div  class="Logo">
+            <img src="img/logo.jpg" alt="Logo empresa">
+        </div>
+
+        <nav class="nav" role="navigation">
+            <ul class="menu_nav">
+              <li><a href="index.html">Inicio</a></li>
+                <li><a href="#"></a>Lecturas
+                    <ul class="sub_menu">
+                        <li><a href="paghtml.html">HTML5</a></li>
+                        <li><a href="pagcss.html">CSS</a></li>
+                        <li><a href="paggithub.html">GITHUB</a></li>
+                        <li><a href="pagtutoriales.html">TUTORIALES</a></li>
+                        <li><a href="#">EXPERIENCIAS</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"></a>Multimedia
+                  <ul class="sub_menu">
+                      <li><a href="#"></a>Sub menu</li>
+                      <li><a href="#"></a>Sub menu</li>
+
+                  </ul>
+
+                </li>
+                <li><a href="#"></a>Actividades
+                  <ul class="sub_menu">
+                      <li><a href="#"></a>Sub menu</li>
+                      <li><a href="#"></a>Sub menu</li>
+                      <li><a href="#"></a>Sub menu</li>
+                  </ul>
+                </li>
+                <li><a href="#"></a>Autores</li>
+            </ul>
+        </nav>
+      </header><!--Finaliza encabezado-->
+
+<main class="contenido-principal" role="main">
+    <section class="contenido">
+      <h2></h2>
+      <fieldset>
+        <legend>Logo</legend>
+        <img id="logocss"src="img/css3.png" alt="">
+      </fieldset>
+        <fieldset>
+          <legend>CSS</legend>
+            <p>Hojas de estilo en cascada (o CSS, siglas en inglés de Cascading Stylesheets) es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado.2​ Es muy usado para establecer el diseño visual de los documentos web, e interfaces de usuario escritas en HTML o XHTML; el lenguaje puede ser aplicado a cualquier documento XML, incluyendo XHTML, SVG, XUL, RSS, etcétera. También permite aplicar estilos no visuales, como las hojas de estilo auditivas.CSS está diseñado principalmente para marcar la separación del contenido del documento y la forma de presentación de este, características tales como las capas o layouts, los colores y las fuentes.4​ Esta separación busca mejorar la accesibilidad del documento, proveer más flexibilidad y control en la especificación de características presentacionales, permitir que varios documentos HTML compartan un mismo estilo usando una sola hoja de estilos separada en un archivo .css, y reducir la complejidad y la repetición de código en la estructura del documento.La separación del formato y el contenido hace posible presentar el mismo documento marcado en diferentes estilos para diferentes métodos de renderizado, como en pantalla, en impresión, en voz (mediante un navegador de voz o un lector de pantalla, y dispositivos táctiles basados en el sistema Braille. También se puede mostrar una página web de manera diferente dependiendo del tamaño de la pantalla o tipo de dispositivo. Los lectores pueden especificar una hoja de estilos diferente, como una hoja de estilos CSS guardado en su computadora, para sobreescribir la hoja de estilos del diseñador.La especificación CSS describe un esquema prioritario para determinar que reglas de estilo se aplican si más de una regla coincide para un elemento en particular. Estas reglas, aplicadas con un sistema llamado en cascadas, las prioridades son calculadas y asignadas a las reglas, así que los resultados son predecibles.La especificación CSS es mantenida por el World Wide Web Consortium (W3C). El MIME type text/css está registrado para su uso por CSS descrito en el RFC 2318 (March 1998). El W3C proporciona una herramienta de validación de CSS gratuita para los documentos CSS
+            </p>
+
+        </fieldset>
+        <fieldset>
+          <legend>Sintaxis</legend>
+          <p>CSS tiene una sintaxis simple, y usa un conjunto de palabras clave en inglés para especificar los nombres de varias propiedades de estilo.Una hoja de estilos consiste en una serie de reglas. Cada regla, o conjunto de reglas consisten en uno o más selectores, y un bloque de declaración.
+Selectores
+Los selectores declaran qué etiquetas se le aplican los estilos que coincidan con la etiqueta o atributo señalados en la regla.
+Los selectores pueden aplicarse a:
+Todos los elementos de un tipo, como los párrafos <p>
+Elementos seguidos de un atributo, en particular:
+id: un identificador único para la etiqueta
+class: un identificador para anotar múltiples elementos
+Las clases y los ids son sensibles a las mayúsculas, comienzan con letras, y pueden incluir caracteres alfanumericos y guiones bajos. Una clase aplica para cualquier número de elementos. Un id aplica para un solo elemento.
+Las pseudoclases son usadas en los selectores CSS para permitir el formateo usando información que no está incluida en el documento. Un ejemplo de la pseudoclase muy usada es :hover, que identifica el contenido que está siendo apuntado por un puntero, como el cursor del ratón. Este nombre se añade al selector, de esta manera: a:hover o #elementid:hover. Una pseudoclase clasifica elementos, como :link o :visited, mientras que un pseudoelemento hace una selección de elementos parciales, como ::first-line o ::first-letter.
+Los selectores pueden ser combinados de muchas maneras para obtener una mayor flexibilidad y precisión. Múltiples selectores pueden ser unidos en una misma línea para especificar elementos por su ubicación, tipo de elemento, id, class, o cualquier combinación de estos. El orden de los selectores es importante. Por ejemplo, div.myClass {color: red;} aplica a todos los elementos divcon la clase myClass, mientras que.myClass div {color: red;} aplica a todos los elementos div que estén dentro de cualquier elemento con la clase myClass.</p>
+        </fieldset>
+
+    </section>
+</main>
+
+
+
+
+<aside role="complementary">
+<section class="aside">
+
+<a class="twitter-timeline" height="680px" width=300px href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8" ></script>
+  </a>
+</section>
+</aside>
+
+</div><!--Finaliza contenedor principal-->
+<footer>
+  <ul>
+    <li>Nosotros</li>
+    <li>Contacto</li>
+    <li>Trabajo con Nosotros</li>
+    <li>Garantias y Devoluciones</li>
+    <li>Preguntas frecuentes</li>
+    <li>Terminos y Condiciones</li>
+  </ul>
+
+
+
+</footer>
+
+  </body>
+</html>
